@@ -5,6 +5,6 @@ metadata:
   annotaions: 
     imageregistry: "https://hub.docker.com"
 spec:
-  containers:
+  container:
     name: nginx
     image: nginx
