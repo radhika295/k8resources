@@ -3,11 +3,11 @@ kind: Pod
 metadata: 
   name: resource-demo 
 spec:
-  containeres:
+  containers:
   - name: nginx
     image: nginx
     resources:
-      request:
+      requests:
         memory: "68Mi"
         cpu: "100m"
       #provide equal or more than requests
